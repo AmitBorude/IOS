@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		281ED5061A13EF5100BA4DD7 /* gost3.png in Resources */ = {isa = PBXBuildFile; fileRef = 281ED5051A13EF5100BA4DD7 /* gost3.png */; };
+		281ED50C1A13EF6000BA4DD7 /* Mario.png in Resources */ = {isa = PBXBuildFile; fileRef = 281ED5071A13EF6000BA4DD7 /* Mario.png */; };
+		281ED50D1A13EF6000BA4DD7 /* monsters-clip-art-apr174.gif in Resources */ = {isa = PBXBuildFile; fileRef = 281ED5081A13EF6000BA4DD7 /* monsters-clip-art-apr174.gif */; };
+		281ED50E1A13EF6000BA4DD7 /* pearl-plain-paper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 281ED5091A13EF6000BA4DD7 /* pearl-plain-paper.jpg */; };
+		281ED50F1A13EF6000BA4DD7 /* pipe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 281ED50A1A13EF6000BA4DD7 /* pipe.jpg */; };
+		281ED5101A13EF6000BA4DD7 /* ground.png in Resources */ = {isa = PBXBuildFile; fileRef = 281ED50B1A13EF6000BA4DD7 /* ground.png */; };
+		281ED5121A13EF6600BA4DD7 /* clouds.png in Resources */ = {isa = PBXBuildFile; fileRef = 281ED5111A13EF6600BA4DD7 /* clouds.png */; };
+		281ED5151A13F2B100BA4DD7 /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 281ED5141A13F2B100BA4DD7 /* Game.m */; };
+		28F8A6DE1A13EC0100BA0F59 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F8A6DD1A13EC0100BA0F59 /* main.m */; };
+		28F8A6E11A13EC0100BA0F59 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F8A6E01A13EC0100BA0F59 /* AppDelegate.m */; };
+		28F8A6E41A13EC0100BA0F59 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F8A6E31A13EC0100BA0F59 /* ViewController.m */; };
+		28F8A6E71A13EC0100BA0F59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28F8A6E51A13EC0100BA0F59 /* Main.storyboard */; };
+		28F8A6E91A13EC0100BA0F59 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28F8A6E81A13EC0100BA0F59 /* Images.xcassets */; };
+		28F8A6EC1A13EC0100BA0F59 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28F8A6EA1A13EC0100BA0F59 /* LaunchScreen.xib */; };
+		28F8A6F81A13EC0100BA0F59 /* FlyingMarioTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F8A6F71A13EC0100BA0F59 /* FlyingMarioTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		28F8A6F21A13EC0100BA0F59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28F8A6D01A13EC0100BA0F59 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28F8A6D71A13EC0100BA0F59;
+			remoteInfo = FlyingMario;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		281ED5051A13EF5100BA4DD7 /* gost3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gost3.png; sourceTree = "<group>"; };
+		281ED5071A13EF6000BA4DD7 /* Mario.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mario.png; sourceTree = "<group>"; };
+		281ED5081A13EF6000BA4DD7 /* monsters-clip-art-apr174.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "monsters-clip-art-apr174.gif"; sourceTree = "<group>"; };
+		281ED5091A13EF6000BA4DD7 /* pearl-plain-paper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "pearl-plain-paper.jpg"; sourceTree = "<group>"; };
+		281ED50A1A13EF6000BA4DD7 /* pipe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pipe.jpg; sourceTree = "<group>"; };
+		281ED50B1A13EF6000BA4DD7 /* ground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ground.png; sourceTree = "<group>"; };
+		281ED5111A13EF6600BA4DD7 /* clouds.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clouds.png; sourceTree = "<group>"; };
+		281ED5131A13F2B100BA4DD7 /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Game.h; path = ../Game.h; sourceTree = "<group>"; };
+		281ED5141A13F2B100BA4DD7 /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Game.m; path = ../Game.m; sourceTree = "<group>"; };
+		28F8A6D81A13EC0100BA0F59 /* FlyingMario.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlyingMario.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		28F8A6DC1A13EC0100BA0F59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28F8A6DD1A13EC0100BA0F59 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		28F8A6DF1A13EC0100BA0F59 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		28F8A6E01A13EC0100BA0F59 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		28F8A6E21A13EC0100BA0F59 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		28F8A6E31A13EC0100BA0F59 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		28F8A6E61A13EC0100BA0F59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		28F8A6E81A13EC0100BA0F59 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		28F8A6EB1A13EC0100BA0F59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		28F8A6F11A13EC0100BA0F59 /* FlyingMarioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlyingMarioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		28F8A6F61A13EC0100BA0F59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28F8A6F71A13EC0100BA0F59 /* FlyingMarioTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlyingMarioTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28F8A6D51A13EC0100BA0F59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28F8A6EE1A13EC0100BA0F59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28F8A6CF1A13EC0100BA0F59 = {
+			isa = PBXGroup;
+			children = (
+				28F8A6DA1A13EC0100BA0F59 /* FlyingMario */,
+				28F8A6F41A13EC0100BA0F59 /* FlyingMarioTests */,
+				28F8A6D91A13EC0100BA0F59 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		28F8A6D91A13EC0100BA0F59 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28F8A6D81A13EC0100BA0F59 /* FlyingMario.app */,
+				28F8A6F11A13EC0100BA0F59 /* FlyingMarioTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28F8A6DA1A13EC0100BA0F59 /* FlyingMario */ = {
+			isa = PBXGroup;
+			children = (
+				28F8A6DF1A13EC0100BA0F59 /* AppDelegate.h */,
+				28F8A6E01A13EC0100BA0F59 /* AppDelegate.m */,
+				28F8A6E21A13EC0100BA0F59 /* ViewController.h */,
+				28F8A6E31A13EC0100BA0F59 /* ViewController.m */,
+				281ED5131A13F2B100BA4DD7 /* Game.h */,
+				281ED5141A13F2B100BA4DD7 /* Game.m */,
+				28F8A6E51A13EC0100BA0F59 /* Main.storyboard */,
+				28F8A6E81A13EC0100BA0F59 /* Images.xcassets */,
+				28F8A6EA1A13EC0100BA0F59 /* LaunchScreen.xib */,
+				28F8A6DB1A13EC0100BA0F59 /* Supporting Files */,
+			);
+			path = FlyingMario;
+			sourceTree = "<group>";
+		};
+		28F8A6DB1A13EC0100BA0F59 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				28F8A6DC1A13EC0100BA0F59 /* Info.plist */,
+				281ED5051A13EF5100BA4DD7 /* gost3.png */,
+				281ED5111A13EF6600BA4DD7 /* clouds.png */,
+				281ED5071A13EF6000BA4DD7 /* Mario.png */,
+				281ED5081A13EF6000BA4DD7 /* monsters-clip-art-apr174.gif */,
+				281ED5091A13EF6000BA4DD7 /* pearl-plain-paper.jpg */,
+				281ED50A1A13EF6000BA4DD7 /* pipe.jpg */,
+				281ED50B1A13EF6000BA4DD7 /* ground.png */,
+				28F8A6DD1A13EC0100BA0F59 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		28F8A6F41A13EC0100BA0F59 /* FlyingMarioTests */ = {
+			isa = PBXGroup;
+			children = (
+				28F8A6F71A13EC0100BA0F59 /* FlyingMarioTests.m */,
+				28F8A6F51A13EC0100BA0F59 /* Supporting Files */,
+			);
+			path = FlyingMarioTests;
+			sourceTree = "<group>";
+		};
+		28F8A6F51A13EC0100BA0F59 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				28F8A6F61A13EC0100BA0F59 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		28F8A6D71A13EC0100BA0F59 /* FlyingMario */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28F8A6FB1A13EC0100BA0F59 /* Build configuration list for PBXNativeTarget "FlyingMario" */;
+			buildPhases = (
+				28F8A6D41A13EC0100BA0F59 /* Sources */,
+				28F8A6D51A13EC0100BA0F59 /* Frameworks */,
+				28F8A6D61A13EC0100BA0F59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlyingMario;
+			productName = FlyingMario;
+			productReference = 28F8A6D81A13EC0100BA0F59 /* FlyingMario.app */;
+			productType = "com.apple.product-type.application";
+		};
+		28F8A6F01A13EC0100BA0F59 /* FlyingMarioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28F8A6FE1A13EC0100BA0F59 /* Build configuration list for PBXNativeTarget "FlyingMarioTests" */;
+			buildPhases = (
+				28F8A6ED1A13EC0100BA0F59 /* Sources */,
+				28F8A6EE1A13EC0100BA0F59 /* Frameworks */,
+				28F8A6EF1A13EC0100BA0F59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28F8A6F31A13EC0100BA0F59 /* PBXTargetDependency */,
+			);
+			name = FlyingMarioTests;
+			productName = FlyingMarioTests;
+			productReference = 28F8A6F11A13EC0100BA0F59 /* FlyingMarioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28F8A6D01A13EC0100BA0F59 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Amit Borude";
+				TargetAttributes = {
+					28F8A6D71A13EC0100BA0F59 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					28F8A6F01A13EC0100BA0F59 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 28F8A6D71A13EC0100BA0F59;
+					};
+				};
+			};
+			buildConfigurationList = 28F8A6D31A13EC0100BA0F59 /* Build configuration list for PBXProject "FlyingMario" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 28F8A6CF1A13EC0100BA0F59;
+			productRefGroup = 28F8A6D91A13EC0100BA0F59 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28F8A6D71A13EC0100BA0F59 /* FlyingMario */,
+				28F8A6F01A13EC0100BA0F59 /* FlyingMarioTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		28F8A6D61A13EC0100BA0F59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				281ED5101A13EF6000BA4DD7 /* ground.png in Resources */,
+				281ED5061A13EF5100BA4DD7 /* gost3.png in Resources */,
+				281ED50E1A13EF6000BA4DD7 /* pearl-plain-paper.jpg in Resources */,
+				281ED5121A13EF6600BA4DD7 /* clouds.png in Resources */,
+				28F8A6E71A13EC0100BA0F59 /* Main.storyboard in Resources */,
+				281ED50D1A13EF6000BA4DD7 /* monsters-clip-art-apr174.gif in Resources */,
+				28F8A6EC1A13EC0100BA0F59 /* LaunchScreen.xib in Resources */,
+				281ED50F1A13EF6000BA4DD7 /* pipe.jpg in Resources */,
+				28F8A6E91A13EC0100BA0F59 /* Images.xcassets in Resources */,
+				281ED50C1A13EF6000BA4DD7 /* Mario.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28F8A6EF1A13EC0100BA0F59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28F8A6D41A13EC0100BA0F59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28F8A6E41A13EC0100BA0F59 /* ViewController.m in Sources */,
+				28F8A6E11A13EC0100BA0F59 /* AppDelegate.m in Sources */,
+				28F8A6DE1A13EC0100BA0F59 /* main.m in Sources */,
+				281ED5151A13F2B100BA4DD7 /* Game.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28F8A6ED1A13EC0100BA0F59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28F8A6F81A13EC0100BA0F59 /* FlyingMarioTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		28F8A6F31A13EC0100BA0F59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28F8A6D71A13EC0100BA0F59 /* FlyingMario */;
+			targetProxy = 28F8A6F21A13EC0100BA0F59 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		28F8A6E51A13EC0100BA0F59 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28F8A6E61A13EC0100BA0F59 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		28F8A6EA1A13EC0100BA0F59 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28F8A6EB1A13EC0100BA0F59 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		28F8A6F91A13EC0100BA0F59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		28F8A6FA1A13EC0100BA0F59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		28F8A6FC1A13EC0100BA0F59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FlyingMario/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		28F8A6FD1A13EC0100BA0F59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FlyingMario/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		28F8A6FF1A13EC0100BA0F59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FlyingMarioTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlyingMario.app/FlyingMario";
+			};
+			name = Debug;
+		};
+		28F8A7001A13EC0100BA0F59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FlyingMarioTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlyingMario.app/FlyingMario";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28F8A6D31A13EC0100BA0F59 /* Build configuration list for PBXProject "FlyingMario" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28F8A6F91A13EC0100BA0F59 /* Debug */,
+				28F8A6FA1A13EC0100BA0F59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28F8A6FB1A13EC0100BA0F59 /* Build configuration list for PBXNativeTarget "FlyingMario" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28F8A6FC1A13EC0100BA0F59 /* Debug */,
+				28F8A6FD1A13EC0100BA0F59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28F8A6FE1A13EC0100BA0F59 /* Build configuration list for PBXNativeTarget "FlyingMarioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28F8A6FF1A13EC0100BA0F59 /* Debug */,
+				28F8A7001A13EC0100BA0F59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 28F8A6D01A13EC0100BA0F59 /* Project object */;
+}
